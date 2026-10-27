@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "firebase-hosting/public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,7 +10,7 @@
     "trailingSlash": false,
     "rewrites": [
       {
-        "source": "**",
+        "source": "!/{v1,api}/**",
         "destination": "/index.html"
       }
     ],
